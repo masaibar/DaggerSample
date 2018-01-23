@@ -1,8 +1,7 @@
 package com.masaibar.daggersample
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
+import android.support.v7.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -17,6 +16,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showDebugText(text: String) {
-        Toast.makeText(this, text, Toast.LENGTH_SHORT).show()
+        Debugger(this).showText(text)
     }
 }
