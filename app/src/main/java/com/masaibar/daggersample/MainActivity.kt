@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         debugger = DebuggerImpl(ToastDebugger(this))
+//        debugger = DebuggerImpl(LogcatDebugger())
 
         button.setOnClickListener {
             debugger.showText("hoge")
