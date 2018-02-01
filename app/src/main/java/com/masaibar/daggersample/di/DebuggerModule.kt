@@ -1,6 +1,9 @@
-package com.masaibar.daggersample
+package com.masaibar.daggersample.di
 
 import android.content.Context
+import com.masaibar.daggersample.Debugger
+import com.masaibar.daggersample.DebuggerImpl
+import com.masaibar.daggersample.ToastDebugger
 import dagger.Module
 import dagger.Provides
 

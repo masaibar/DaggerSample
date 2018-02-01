@@ -1,5 +1,6 @@
-package com.masaibar.daggersample
+package com.masaibar.daggersample.di
 
+import com.masaibar.daggersample.ui.MainActivity
 import dagger.Component
 import javax.inject.Singleton
 

@@ -1,7 +1,11 @@
-package com.masaibar.daggersample
+package com.masaibar.daggersample.ui
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import com.masaibar.daggersample.DaggerAppComponent
+import com.masaibar.daggersample.DebuggerImpl
+import com.masaibar.daggersample.R
+import com.masaibar.daggersample.di.AppModule
 import kotlinx.android.synthetic.main.activity_main.*
 import javax.inject.Inject
 
